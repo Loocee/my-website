@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+h1 {
+  color: darkolivegreen;
+  margin: 30px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 90px;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: darkolivegreen;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: seagreen;
+}
+
+hr {
+  border-style: none;
+  color: lightgrey;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+/*************class selectors**************/
+.btn{
+border-radius: 8px;
+font-family: "Montserrat", sans-serif;
+color: darkolivegreen;
+font-size: 20px;
+background: seagreen;
+padding: 10px 20px 10px 20px;
+border: solid seagreen 2px;
+text-decoration: none;
+}
+
+.btn:hover{
+  background: black;
+
+}
+
+.cloud1 {
+  display: inline-block;
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.cloud2 {
+  display: inline-block;
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.footer-link{
+  display: inline-block;
+  color: black;
+  width: 100px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.img2{
+  float: left;
+  margin-right: 30px;
+}
+
+.img3{
+  float: right;
+  margin-left: 30px;
+}
+
+.p1{
+  width: 30%;
+  margin: auto;
+}
+
+.p5{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.p6{
+  font-size: 0.75rem;
+}
+
+.profile{
+  padding-top: 50px;
+}
+
+.top-container {
+  background-color: aliceblue;
+  position: relative;
+  padding-top: 100px
+}
+
+.middle-container {
+  background-color: white;
+  padding-bottom: 60px;
+}
+
+
+
+.bottom-container{
+  background-color: seagreen;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+
+
+.skills hr {
+  display: inline-block;
+  border-style: none;
+  width: 5%;
+  border-top-style: dashed;
+  color: darkolivegreen;
+  border-width: 5px;
+  position: relative;
+  bottom: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+  text-align: left;
+}
